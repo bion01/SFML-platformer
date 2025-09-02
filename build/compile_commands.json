@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/bion/projects/games/platformer/build",
+  "command": "/usr/bin/c++  -I/home/bion/projects/games/platformer/SFML/include -std=gnu++17 -o CMakeFiles/play.dir/main.cpp.o -c /home/bion/projects/games/platformer/main.cpp",
+  "file": "/home/bion/projects/games/platformer/main.cpp",
+  "output": "CMakeFiles/play.dir/main.cpp.o"
+}
+]

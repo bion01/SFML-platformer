@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/play.dir/link.d CMakeFiles/play.dir/main.cpp.o -o output/play   -L/home/bion/projects/games/platformer/SFML/lib  -Wl,-rpath,/home/bion/projects/games/platformer/SFML/lib -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio

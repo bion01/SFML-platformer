@@ -1,0 +1,3 @@
+/home/bion/projects/games/platformer/build/CMakeFiles/play.dir
+/home/bion/projects/games/platformer/build/CMakeFiles/edit_cache.dir
+/home/bion/projects/games/platformer/build/CMakeFiles/rebuild_cache.dir
