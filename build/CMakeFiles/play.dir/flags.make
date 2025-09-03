@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/bion/projects/games/platformer/SFML/include
+CXX_INCLUDES = -I/home/bion/projects/games/platformer/SFML/include -I/home/bion/projects/games/platformer/include
 
 CXX_FLAGS = -std=gnu++17
 

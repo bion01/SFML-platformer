@@ -1,44 +1,15 @@
 #include <SFML/Graphics.hpp>
-using namespace sf;
+#include "gameobjects.hpp"
 #include <iostream>
+#include "game.hpp"
 using namespace std;
+using namespace sf;
 
-class Object
+
+void Game::start() 
 {
-    public:
-        Vector2f pos = Vector2f(100,100);
-        Vector2f scale = Vector2f(1,1);
-        float speed = 100.0f;
-        void spawn(Sprite &asset, RenderWindow &window)
-        {
-            //asset.setPosition(pos);
-            asset.setScale(scale);
-           
-            window.draw(asset);
-        }
-        void update(Sprite &obj, Time &tickrate)
-        {
-            if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::A))
-                obj.move({-speed*tickrate.asSeconds(), 0.0f});
-            if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::D))
-                obj.move({speed*tickrate.asSeconds(), 0.0f});
-            if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::W))
-                obj.move({0.f, -speed*tickrate.asSeconds()});
-            if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::S))
-                obj.move({0.f, speed*tickrate.asSeconds()});
-            
-        }
-
-};
-
-class Game
-{
-    public:
-        void start()
-        {
-            
-            //assets
-            Texture playerTex;
+    // Assets
+    Texture playerTex;
             if(!playerTex.loadFromFile("assets/konata.jpeg"))
             {
                 cout<< "Texture could not be loaded" << endl;
@@ -95,12 +66,4 @@ class Game
                 // end the current frame
                 window.display();
             }
-        }
-
-};
-
-int main()
-{
-    Game game;
-    game.start();
 }

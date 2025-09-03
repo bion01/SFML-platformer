@@ -2,7 +2,9 @@ output/play: \
   /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o \
   /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o \
   /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o \
-  CMakeFiles/play.dir/main.cpp.o \
+  CMakeFiles/play.dir/src/Game.cpp.o \
+  CMakeFiles/play.dir/src/Gameobjects.cpp.o \
+  CMakeFiles/play.dir/src/main.cpp.o \
   /home/bion/projects/games/platformer/SFML/lib/libsfml-graphics.so \
   /home/bion/projects/games/platformer/SFML/lib/libsfml-window.so \
   /home/bion/projects/games/platformer/SFML/lib/libsfml-system.so \
@@ -96,7 +98,11 @@ output/play: \
 
 /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o:
 
-CMakeFiles/play.dir/main.cpp.o:
+CMakeFiles/play.dir/src/Game.cpp.o:
+
+CMakeFiles/play.dir/src/Gameobjects.cpp.o:
+
+CMakeFiles/play.dir/src/main.cpp.o:
 
 /home/bion/projects/games/platformer/SFML/lib/libsfml-graphics.so:
 

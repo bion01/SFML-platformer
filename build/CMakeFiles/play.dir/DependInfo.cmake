@@ -8,7 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/bion/projects/games/platformer/main.cpp" "CMakeFiles/play.dir/main.cpp.o" "gcc" "CMakeFiles/play.dir/main.cpp.o.d"
+  "/home/bion/projects/games/platformer/src/Game.cpp" "CMakeFiles/play.dir/src/Game.cpp.o" "gcc" "CMakeFiles/play.dir/src/Game.cpp.o.d"
+  "/home/bion/projects/games/platformer/src/Gameobjects.cpp" "CMakeFiles/play.dir/src/Gameobjects.cpp.o" "gcc" "CMakeFiles/play.dir/src/Gameobjects.cpp.o.d"
+  "/home/bion/projects/games/platformer/src/main.cpp" "CMakeFiles/play.dir/src/main.cpp.o" "gcc" "CMakeFiles/play.dir/src/main.cpp.o.d"
   "" "output/play" "gcc" "CMakeFiles/play.dir/link.d"
   )
 

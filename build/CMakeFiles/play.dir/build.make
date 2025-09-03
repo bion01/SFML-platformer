@@ -72,32 +72,64 @@ include CMakeFiles/play.dir/flags.make
 CMakeFiles/play.dir/codegen:
 .PHONY : CMakeFiles/play.dir/codegen
 
-CMakeFiles/play.dir/main.cpp.o: CMakeFiles/play.dir/flags.make
-CMakeFiles/play.dir/main.cpp.o: /home/bion/projects/games/platformer/main.cpp
-CMakeFiles/play.dir/main.cpp.o: CMakeFiles/play.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/bion/projects/games/platformer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/play.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/play.dir/main.cpp.o -MF CMakeFiles/play.dir/main.cpp.o.d -o CMakeFiles/play.dir/main.cpp.o -c /home/bion/projects/games/platformer/main.cpp
+CMakeFiles/play.dir/src/Game.cpp.o: CMakeFiles/play.dir/flags.make
+CMakeFiles/play.dir/src/Game.cpp.o: /home/bion/projects/games/platformer/src/Game.cpp
+CMakeFiles/play.dir/src/Game.cpp.o: CMakeFiles/play.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/bion/projects/games/platformer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/play.dir/src/Game.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/play.dir/src/Game.cpp.o -MF CMakeFiles/play.dir/src/Game.cpp.o.d -o CMakeFiles/play.dir/src/Game.cpp.o -c /home/bion/projects/games/platformer/src/Game.cpp
 
-CMakeFiles/play.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/play.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bion/projects/games/platformer/main.cpp > CMakeFiles/play.dir/main.cpp.i
+CMakeFiles/play.dir/src/Game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/play.dir/src/Game.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bion/projects/games/platformer/src/Game.cpp > CMakeFiles/play.dir/src/Game.cpp.i
 
-CMakeFiles/play.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/play.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bion/projects/games/platformer/main.cpp -o CMakeFiles/play.dir/main.cpp.s
+CMakeFiles/play.dir/src/Game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/play.dir/src/Game.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bion/projects/games/platformer/src/Game.cpp -o CMakeFiles/play.dir/src/Game.cpp.s
+
+CMakeFiles/play.dir/src/Gameobjects.cpp.o: CMakeFiles/play.dir/flags.make
+CMakeFiles/play.dir/src/Gameobjects.cpp.o: /home/bion/projects/games/platformer/src/Gameobjects.cpp
+CMakeFiles/play.dir/src/Gameobjects.cpp.o: CMakeFiles/play.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/bion/projects/games/platformer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/play.dir/src/Gameobjects.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/play.dir/src/Gameobjects.cpp.o -MF CMakeFiles/play.dir/src/Gameobjects.cpp.o.d -o CMakeFiles/play.dir/src/Gameobjects.cpp.o -c /home/bion/projects/games/platformer/src/Gameobjects.cpp
+
+CMakeFiles/play.dir/src/Gameobjects.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/play.dir/src/Gameobjects.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bion/projects/games/platformer/src/Gameobjects.cpp > CMakeFiles/play.dir/src/Gameobjects.cpp.i
+
+CMakeFiles/play.dir/src/Gameobjects.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/play.dir/src/Gameobjects.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bion/projects/games/platformer/src/Gameobjects.cpp -o CMakeFiles/play.dir/src/Gameobjects.cpp.s
+
+CMakeFiles/play.dir/src/main.cpp.o: CMakeFiles/play.dir/flags.make
+CMakeFiles/play.dir/src/main.cpp.o: /home/bion/projects/games/platformer/src/main.cpp
+CMakeFiles/play.dir/src/main.cpp.o: CMakeFiles/play.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/bion/projects/games/platformer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/play.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/play.dir/src/main.cpp.o -MF CMakeFiles/play.dir/src/main.cpp.o.d -o CMakeFiles/play.dir/src/main.cpp.o -c /home/bion/projects/games/platformer/src/main.cpp
+
+CMakeFiles/play.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/play.dir/src/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bion/projects/games/platformer/src/main.cpp > CMakeFiles/play.dir/src/main.cpp.i
+
+CMakeFiles/play.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/play.dir/src/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bion/projects/games/platformer/src/main.cpp -o CMakeFiles/play.dir/src/main.cpp.s
 
 # Object files for target play
 play_OBJECTS = \
-"CMakeFiles/play.dir/main.cpp.o"
+"CMakeFiles/play.dir/src/Game.cpp.o" \
+"CMakeFiles/play.dir/src/Gameobjects.cpp.o" \
+"CMakeFiles/play.dir/src/main.cpp.o"
 
 # External object files for target play
 play_EXTERNAL_OBJECTS =
 
-output/play: CMakeFiles/play.dir/main.cpp.o
+output/play: CMakeFiles/play.dir/src/Game.cpp.o
+output/play: CMakeFiles/play.dir/src/Gameobjects.cpp.o
+output/play: CMakeFiles/play.dir/src/main.cpp.o
 output/play: CMakeFiles/play.dir/build.make
 output/play: CMakeFiles/play.dir/compiler_depend.ts
 output/play: CMakeFiles/play.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/bion/projects/games/platformer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable output/play"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/bion/projects/games/platformer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable output/play"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/play.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

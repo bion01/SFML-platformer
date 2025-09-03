@@ -85,12 +85,12 @@ clean: CMakeFiles/play.dir/clean
 CMakeFiles/play.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/play.dir/build.make CMakeFiles/play.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/play.dir/build.make CMakeFiles/play.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/bion/projects/games/platformer/build/CMakeFiles --progress-num=1,2 "Built target play"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/bion/projects/games/platformer/build/CMakeFiles --progress-num=1,2,3,4 "Built target play"
 .PHONY : CMakeFiles/play.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/play.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bion/projects/games/platformer/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bion/projects/games/platformer/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/play.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bion/projects/games/platformer/build/CMakeFiles 0
 .PHONY : CMakeFiles/play.dir/rule
@@ -102,7 +102,7 @@ play: CMakeFiles/play.dir/rule
 # codegen rule for target.
 CMakeFiles/play.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/play.dir/build.make CMakeFiles/play.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/bion/projects/games/platformer/build/CMakeFiles --progress-num=1,2 "Finished codegen for target play"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/bion/projects/games/platformer/build/CMakeFiles --progress-num=1,2,3,4 "Finished codegen for target play"
 .PHONY : CMakeFiles/play.dir/codegen
 
 # clean rule for target.
